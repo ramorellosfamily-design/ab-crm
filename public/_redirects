@@ -1,0 +1,6 @@
+/* Cloudflare Pages SPA redirect */
+/*
+  /projects/*  /projects/:splat  200
+  /clients/*   /clients/:splat   200
+  /*           /index.html       200
+*/
