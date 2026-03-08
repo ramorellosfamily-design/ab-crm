@@ -1,0 +1,20 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: #141414;
+  color: #f4f1ec;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+a { color: inherit; text-decoration: none; }
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #1a1a1a; }
+::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #c4955a55; }
+
+::selection { background: rgba(196,149,90,0.3); color: #f4f1ec; }
+
+input, textarea, select, button { font-family: inherit; }
